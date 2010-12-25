@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    DBIx-Class extension for providing recursive updates
 License:    GPL+ or Artistic
@@ -19,6 +19,7 @@ BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(DateTime)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Readonly) >= 1.30
+BuildRequires: perl(SQL::Abstract)
 BuildRequires: perl(SQL::Translator) >= 0.110.60
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::Warn)

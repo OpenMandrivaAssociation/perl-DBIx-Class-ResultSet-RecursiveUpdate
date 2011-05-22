@@ -1,9 +1,9 @@
 %define upstream_name    DBIx-Class-ResultSet-RecursiveUpdate
-%define upstream_version 0.23
+%define upstream_version 0.24
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    DBIx-Class extension for providing recursive updates
 License:    GPL+ or Artistic

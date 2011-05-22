@@ -18,6 +18,7 @@ BuildRequires: perl(DBIx::Class::IntrospectableM2M)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(DateTime)
 BuildRequires: perl(ExtUtils::MakeMaker)
+BuildRequires: perl(Module::Find)
 BuildRequires: perl(Readonly) >= 1.30
 BuildRequires: perl(SQL::Abstract)
 BuildRequires: perl(SQL::Translator) >= 0.110.60
